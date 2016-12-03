@@ -22,6 +22,7 @@ namespace COPD
     
         public int Id { get; set; }
         public string TypName { get; set; }
+        public Nullable<int> Zeitintervall { get; set; }
     
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<Messdaten> Messdaten { get; set; }
